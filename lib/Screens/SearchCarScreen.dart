@@ -2,7 +2,6 @@ import 'package:final_flutter2025/Screens/CarDetailsScreen.dart';
 import 'package:final_flutter2025/widgets/AppBottomNavBar.dart';
 import 'package:flutter/material.dart';
 import '../models/car_model.dart';
-import 'SuccessScreen.dart';
 
 class SearchCarScreen extends StatefulWidget {
   const SearchCarScreen({super.key});

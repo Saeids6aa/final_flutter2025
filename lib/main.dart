@@ -1,4 +1,3 @@
-
   import 'package:flutter/material.dart';
   import 'registration/SignInScreen.dart';
   import 'registration/SingUpscreen.dart';
@@ -8,7 +7,6 @@
   import 'Screens/ProfileScreen.dart';
   import 'Screens/FilterScreen.dart';
   import 'Screens/SearchCarScreen.dart';
-
   void main() {
     runApp(const MyApp());
   }
@@ -33,7 +31,6 @@
           '/filter': (context) => const FilterScreen(),
           '/search': (context) => const SearchCarScreen(),
           '/profile':(context)=> const  ProfileScreen(),
-
         },
       );
     }
